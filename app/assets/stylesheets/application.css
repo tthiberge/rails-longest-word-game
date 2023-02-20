@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+ .new-game {
+  display: flex;
+  /* justify-content: ; */
+  align-items: center;
+  flex-wrap: wrap;
+ }
+
+ .letter {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(9, 124, 232, 0.795);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+ }
+
+ .linkto {
+  text-decoration: none;
+ }
